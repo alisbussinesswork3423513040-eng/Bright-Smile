@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="toothBodyGrad" x1="100" y1="20" x2="100" y2="155" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FFFFFF" />
+      <stop offset="45%" stopColor="#F4FAFF" />
+      <stop offset="85%" stopColor="#D8EEFE" />
+      <stop offset="100%" stopColor="#BFE3FD" />
+    </linearGradient>
+    <linearGradient id="swooshGrad" x1="20" y1="90" x2="185" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#00A8FF" />
+      <stop offset="60%" stopColor="#0090F5" />
+      <stop offset="100%" stopColor="#0072DE" />
+    </linearGradient>
+    <linearGradient id="sparkleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stopColor="#38BDF8" />
+      <stop offset="100%" stopColor="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sparkle Stars -->
+  <path d="M 152 25 Q 152 35 142 35 Q 152 35 152 45 Q 152 35 162 35 Q 152 35 152 25 Z" fill="url(#sparkleGrad)" />
+  <path d="M 166 45 Q 166 51 160 51 Q 166 51 166 57 Q 166 51 172 51 Q 166 51 166 45 Z" fill="url(#sparkleGrad)" />
+
+  <!-- Tooth Body -->
+  <path
+    d="M 68 28
+       C 80 23, 94 27, 100 32
+       C 106 27, 120 23, 132 28
+       C 148 35, 158 55, 155 82
+       C 152 108, 145 130, 137 146
+       C 131 158, 116 160, 108 147
+       C 104 140, 101 138, 100 138
+       C 99 138, 96 140, 92 147
+       C 84 160, 69 158, 63 146
+       C 55 130, 48 108, 45 82
+       C 42 55, 52 35, 68 28 Z"
+    fill="url(#toothBodyGrad)"
+    stroke="#095DB1"
+    stroke-width="6.5"
+    stroke-linejoin="round"
+  />
+
+  <!-- Eyes -->
+  <path d="M 72 73 C 77 67, 85 67, 90 73" stroke="#095DB1" stroke-width="5" stroke-linecap="round" fill="none" />
+  <path d="M 110 73 C 115 67, 123 67, 128 73" stroke="#095DB1" stroke-width="5" stroke-linecap="round" fill="none" />
+
+  <!-- Smile -->
+  <path d="M 78 86 C 90 89, 110 89, 122 86 C 120 106, 80 106, 78 86 Z" fill="#095DB1" />
+  <path d="M 87 97 C 93 93, 107 93, 113 97 C 109 104, 91 104, 87 97 Z" fill="#38BDF8" />
+
+  <!-- Orbital Swoosh -->
+  <path
+    d="M 32 75
+       C 27 98, 46 122, 92 122
+       C 134 122, 168 98, 178 64
+       C 174 74, 150 112, 92 112
+       C 50 112, 33 92, 32 75 Z"
+    fill="url(#swooshGrad)"
+  />
+</svg>

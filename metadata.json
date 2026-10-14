@@ -1,0 +1,6 @@
+{
+  "name": "Bright Smile Dental Studio",
+  "description": "Gentle, modern dentistry by Dr. Ali on Matli Main Road, 34th Street, Hyderabad. Comprehensive oral care, scaling, fillings, whitening, and pain-free treatments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
